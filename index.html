@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ana Paula Vargas Torres — Designer & Visual Communicator</title>
+<meta name="description" content="Portfolio of Ana Paula Vargas Torres, Designer at AstraZeneca (Internal Communication) and Industrial Design student at Tecnológico de Monterrey. Brand, events, visual and commercial work." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%230047FF'/><stop offset='1' stop-color='%237DD3FC'/></linearGradient></defs><rect width='100' height='100' rx='24' fill='url(%23g)'/><text x='50' y='69' font-size='52' font-family='Arial' font-weight='800' fill='white' text-anchor='middle'>A</text></svg>">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <nav class="nav-inner" aria-label="Main">
+    <a href="#top" class="nav-logo" aria-label="Home">AP<span>.</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#courses">Courses</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a class="btn btn-small btn-gradient" href="#contact">Hire Me</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-progress"><i id="navProgress"></i></div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"><i class="blob b1"></i><i class="blob b2"></i><i class="blob b3"></i><i class="grid-overlay"></i></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="pill-row">
+          <span class="pill pill-blue"><span class="dot"></span> Intern @ AstraZeneca</span>
+          <span class="pill">Guadalajara, Jalisco · Tec de Monterrey</span>
+        </div>
+        <h1 class="name-title">Ana Paula<br><span class="gradient-text">Vargas Torres</span></h1>
+        <p class="role-line">Designer & Visual Communicator — Internal Comms · Brand · Events</p>
+        <p class="lede">Design student working in <strong>Internal Communication at AstraZeneca</strong>. I translate key messages into clear, engaging materials — from brands and events to corporate campaigns — with responsibility, creativity, discipline and professionalism.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gradient btn-lg" href="#work">View selected work ↓</a>
+          <a class="btn btn-link" href="https://www.behance.net/anapauvargastorres" target="_blank" rel="noopener">Visit Behance ↗</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>5</strong><span>Featured projects</span></div>
+          <div><strong>3</strong><span>Work experiences</span></div>
+          <div><strong>Tec de Mty</strong><span>Design · Technology</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="profile-frame">
+          <div class="profile-ring"></div>
+          <img class="profile-photo" src="./IMG_1234.JPG" alt="Portrait of Ana Paula Vargas Torres" loading="eager" />
+          <div class="profile-badge">✦ Open to work</div>
+          <div class="profile-card-mini">
+            <strong>Ana Paula Vargas Torres</strong>
+            <span>Internal Comms · AstraZeneca</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container categories">
+      <a href="#work" class="cat" data-goto="0"><span class="cat-icon">◈</span> Brand</a>
+      <a href="#work" class="cat" data-goto="1"><span class="cat-icon">✦</span> Events</a>
+      <a href="#work" class="cat" data-goto="2"><span class="cat-icon">⬣</span> Visual</a>
+      <a href="#work" class="cat" data-goto="3"><span class="cat-icon">⬢</span> Commercial</a>
+      <a href="#work" class="cat" data-goto="4"><span class="cat-icon">⬣</span> Bosch × Figma</a>
+      <a href="#contact" class="cat cat-hire"><span class="cat-icon">→</span> Hire</a>
+    </div>
+  </section>
+
+  <!-- WORK CAROUSEL -->
+  <section class="section section-gradient" id="work">
+    <div class="container">
+      <div class="section-head split">
+        <div>
+          <small class="eyebrow">Selected Work</small>
+          <h2>Designed with <span class="gradient-text">intention.</span></h2>
+          <p>Five projects — four Behance case studies plus a Bosch conceptual poster on Figma. Drag, use arrows, or let it autoplay — click any image to enlarge.</p>
+        </div>
+        <div class="carousel-controls-top">
+          <button class="cbtn" id="prevBtn" aria-label="Previous project">←</button>
+          <span class="counter"><b id="slideNow">01</b> / 05</span>
+          <button class="cbtn" id="nextBtn" aria-label="Next project">→</button>
+        </div>
+      </div>
+
+      <div class="carousel reveal" id="projectCarousel">
+        <div class="carousel-viewport" id="carouselViewport">
+          <div class="carousel-track" id="carouselTrack">
+
+            <article class="slide" data-title="Brand Design Portfolio">
+              <div class="slide-media" data-lightbox="https://mir-s3-cdn-cf.behance.net/projects/404/474bb6250619675.Y3JvcCw4NjYsNjc3LDMxOSww.jpg">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/474bb6250619675.Y3JvcCw4NjYsNjc3LDMxOSww.jpg" alt="Brand Design Portfolio" loading="lazy" draggable="false" />
+                <span class="zoom">⤢ Click to enlarge</span>
+              </div>
+              <div class="slide-body">
+                <small class="eyebrow">01 — Brand Design</small>
+                <h3>Brand Design Portfolio</h3>
+                <p>Logo systems, visual identities and brand guidelines. Clean, memorable marks built to scale from print to digital.</p>
+                <div class="tags"><span>Identity</span><span>Logo</span><span>Guidelines</span></div>
+                <a class="btn btn-dark" href="https://www.behance.net/gallery/250619675/Portafolio-Diseno-de-Marca" target="_blank" rel="noopener">View case study ↗</a>
+              </div>
+            </article>
+
+            <article class="slide" data-title="Experience & Events">
+              <div class="slide-media" data-lightbox="https://mir-s3-cdn-cf.behance.net/projects/404/684e92250620777.Y3JvcCw4NTksNjcxLDAsMjEy.jpg">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/684e92250620777.Y3JvcCw4NTksNjcxLDAsMjEy.jpg" alt="Experience and Events portfolio" loading="lazy" draggable="false" />
+                <span class="zoom">⤢ Click to enlarge</span>
+              </div>
+              <div class="slide-body">
+                <small class="eyebrow">02 — Experience / Events</small>
+                <h3>Experience & Events</h3>
+                <p>Visual identity and creative assets for PrepaTec recruitment campaigns and events across print, digital and on-site touchpoints.</p>
+                <div class="tags"><span>Art Direction</span><span>Campaigns</span><span>Events</span></div>
+                <a class="btn btn-dark" href="https://www.behance.net/gallery/250620777/Portafolio-Experiencia-Eventos" target="_blank" rel="noopener">View on Behance ↗</a>
+              </div>
+            </article>
+
+            <article class="slide" data-title="Visual Representation">
+              <div class="slide-media" data-lightbox="https://mir-s3-cdn-cf.behance.net/projects/404/4eb1f2239870511.Y3JvcCw5MDcsNzA5LDI5NCw5Mg.jpg">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/4eb1f2239870511.Y3JvcCw5MDcsNzA5LDI5NCw5Mg.jpg" alt="Visual representation portfolio" loading="lazy" draggable="false" />
+                <span class="zoom">⤢ Click to enlarge</span>
+              </div>
+              <div class="slide-body">
+                <small class="eyebrow">03 — Visual Representation</small>
+                <h3>Visual Representation</h3>
+                <p>Sketching, rendering and technical visualization to communicate ideas clearly.</p>
+                <div class="tags"><span>Sketch</span><span>Render</span><span>Boards</span></div>
+                <a class="btn btn-dark" href="https://www.behance.net/gallery/239870511/Portafolio-Representacion-Visual" target="_blank" rel="noopener">View on Behance ↗</a>
+              </div>
+            </article>
+
+            <article class="slide" data-title="Comercial Ceniza">
+              <div class="slide-media" data-lightbox="https://mir-s3-cdn-cf.behance.net/projects/404/45af56252655933.Y3JvcCw5MjksNzI3LDE5NSww.jpeg">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/45af56252655933.Y3JvcCw5MjksNzI3LDE5NSww.jpeg" alt="Comercial Ceniza" loading="lazy" draggable="false" />
+                <span class="zoom">⤢ Click to enlarge</span>
+              </div>
+              <div class="slide-body">
+                <small class="eyebrow">04 — Commercial</small>
+                <h3>Comercial Ceniza</h3>
+                <p>Commercial piece with strong art direction — concept, styling and visual narrative for a product story.</p>
+                <div class="tags"><span>Commercial</span><span>Art Direction</span></div>
+                <a class="btn btn-dark" href="https://www.behance.net/gallery/252655933/Comercial-Ceniza" target="_blank" rel="noopener">View case study ↗</a>
+              </div>
+            </article>
+
+            <article class="slide" data-title="Bosch — Conceptual Poster">
+              <!-- TODO: export the Figma poster as bosch-poster.jpg into this folder, then replace this cover with: <div class="slide-media" data-lightbox="./bosch-poster.jpg"><img src="./bosch-poster.jpg" ...></div> -->
+              <a class="slide-media bosch-cover" href="https://www.figma.com/design/eUY6o1twlfLyAdoGCsoiyQ/A01642599_L%C3%A1minaConceptual?node-id=8-2852&t=0qQduVlymz9lCaba-1" target="_blank" rel="noopener" aria-label="Open Bosch poster in Figma">
+                <span class="bosch-kicker">Bosch × Tec de Monterrey</span>
+                <span class="bosch-mark">Conceptual Poster</span>
+                <span class="bosch-sub">Lámina conceptual · Industrial project</span>
+                <span class="zoom">↗ Open in Figma</span>
+              </a>
+              <div class="slide-body">
+                <small class="eyebrow">05 — Bosch · Poster</small>
+                <h3>Bosch Conceptual Poster</h3>
+                <p>Conceptual board designed for a Bosch project — visual synthesis of research, concept and form into a single exhibition poster.</p>
+                <div class="tags"><span>Bosch</span><span>Concept</span><span>Poster</span></div>
+                <a class="btn btn-dark" href="https://www.figma.com/design/eUY6o1twlfLyAdoGCsoiyQ/A01642599_L%C3%A1minaConceptual?node-id=8-2852&t=0qQduVlymz9lCaba-1" target="_blank" rel="noopener">Open in Figma ↗</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        <div class="carousel-bottom">
+          <div class="dots" id="carouselDots" role="tablist" aria-label="Projects"></div>
+          <button class="autoplay" id="autoplayBtn" aria-pressed="true" title="Pause autoplay">⏸ Pause</button>
+        </div>
+      </div>
+
+      <!-- thumbnail strip -->
+      <div class="thumbs reveal" id="thumbs">
+        <button class="thumb active" data-goto="0"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/474bb6250619675.Y3JvcCw4NjYsNjc3LDMxOSww.jpg" alt="Brand thumb"><span>Brand</span></button>
+        <button class="thumb" data-goto="1"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/684e92250620777.Y3JvcCw4NTksNjcxLDAsMjEy.jpg" alt="Events thumb"><span>Events</span></button>
+        <button class="thumb" data-goto="2"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/4eb1f2239870511.Y3JvcCw5MDcsNzA5LDI5NCw5Mg.jpg" alt="Visual thumb"><span>Visual</span></button>
+        <button class="thumb" data-goto="3"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/45af56252655933.Y3JvcCw5MjksNzI3LDE5NSww.jpeg" alt="Commercial thumb"><span>Commercial</span></button>
+        <button class="thumb thumb-bosch" data-goto="4"><span class="thumb-bosch-mark">B</span><span>Bosch</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-copy reveal">
+        <small class="eyebrow">About</small>
+        <h2>Responsible. Creative.<br><span class="gradient-text">Disciplined. Professional.</span></h2>
+        <p>I'm a Design student at Tecnológico de Monterrey with experience in graphic design, internal communications and digital content — including corporate campaigns and events like town halls and onboarding.</p>
+        <p>Currently <strong>Intern in Internal Communication at AstraZeneca</strong> (Guadalajara), translating key messages into clear, consistent materials. Previously <strong>OnCampus Intern for PrepaTec Admissions</strong> and <strong>GEM Intern at TMF Group</strong> in Toronto.</p>
+        <div class="values">
+          <div><strong>R</strong><span>Responsibility</span></div>
+          <div><strong>C</strong><span>Creativity</span></div>
+          <div><strong>D</strong><span>Discipline</span></div>
+          <div><strong>P</strong><span>Professionalism</span></div>
+        </div>
+        <div class="about-actions">
+          <a class="btn btn-gradient" href="#contact">Let's work together</a>
+          <a class="btn btn-ghost" href="https://www.behance.net/anapauvargastorres" target="_blank" rel="noopener">Behance profile</a>
+        </div>
+      </div>
+      <div class="about-card reveal">
+        <div class="about-photo-wrap">
+          <img src="./IMG_1234.JPG" alt="Ana Paula Vargas Torres portrait" loading="lazy" />
+        </div>
+        <div class="profile-top">
+          <div>
+            <strong>Ana Paula Vargas Torres</strong>
+            <span>Internal Communication Intern · AstraZeneca</span>
+          </div>
+        </div>
+        <ul class="profile-list">
+          <li><span>Location</span><strong>Guadalajara, Jalisco, MX</strong></li>
+          <li><span>Focus</span><strong>Internal Comms · Brand · Events</strong></li>
+          <li><span>Languages</span><strong>Spanish (Native) · English (TOEFL B2)</strong></li>
+          <li><span>Status</span><strong class="green">Open to full-time</strong></li>
+        </ul>
+        <div class="profile-links">
+          <a href="https://www.behance.net/anapauvargastorres" target="_blank" rel="noopener">Behance ↗</a>
+          <!-- TODO: replace with your real LinkedIn URL from your CV -->
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-blue" id="experience">
+    <div class="container">
+      <div class="section-head">
+        <small class="eyebrow light">Journey</small>
+        <h2 class="on-blue">Experience. <span>Real work, real impact.</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="t-item reveal">
+          <div class="t-date">Aug 2026 — Present</div>
+          <div class="t-card glow">
+            <h3>Intern — Internal Communication</h3>
+            <p class="t-org">AstraZeneca · Guadalajara, Jalisco, Mexico</p>
+            <p>Graphic and digital content for internal channels, turning key messages into clear, engaging materials. Campaign support for employee engagement, internal writing and channel management.</p>
+            <div class="tags"><span>Internal Comms</span><span>Campaigns</span><span>Digital Content</span></div>
+          </div>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-date">Mar 2025 — Jul 2026</div>
+          <div class="t-card">
+            <h3>OnCampus Intern — PrepaTec Admissions</h3>
+            <p class="t-org">Tecnológico de Monterrey · Guadalajara, Mexico</p>
+            <p>Led visual identity and design for recruitment campaigns and events across print, digital and on-site touchpoints, aligned with campaign objectives and brand consistency.</p>
+            <div class="tags"><span>Event Design</span><span>Campaigns</span><span>Brand Consistency</span></div>
+          </div>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-date">Jan — Oct 2023</div>
+          <div class="t-card">
+            <h3>Intern — GEM Team</h3>
+            <p class="t-org">TMF Group · Toronto, Ontario, Canada</p>
+            <p>Office operations and internal events — team-building, hybrid town halls, onboarding logistics. Reorganized Teams and SharePoint structures; supported HR, IT, Accounting & Tax and ISO teams.</p>
+            <div class="tags"><span>International</span><span>Operations</span><span>Events</span></div>
+          </div>
+        </div>
+        <div class="t-item reveal">
+          <div class="t-date">Education</div>
+          <div class="t-card">
+            <h3>B.A. in Design, Technology Concentration</h3>
+            <p class="t-org">Tecnológico de Monterrey · 2024 — 2028</p>
+            <p>Product, brand and visual communication design — sketching, modeling, materials and design thinking. Plus an International Business Diploma at Greystone College, Toronto.</p>
+            <div class="tags"><span>Design Thinking</span><span>Technology</span><span>Business</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="section" id="courses">
+    <div class="container">
+      <div class="section-head">
+        <small class="eyebrow">Learning</small>
+        <h2>Courses & <span>Certifications.</span></h2>
+        <p>External training beyond the classroom. <!-- TODO: send me your external courses (name + institution + year) and I'll add them here. --></p>
+      </div>
+      <div class="courses-grid">
+        <div class="course reveal gradient-border">
+          <small>Diploma · Toronto, Canada</small>
+          <h4>International Business Diploma</h4>
+          <p>Greystone College · Nov 2022 — Oct 2023</p>
+        </div>
+        <div class="course reveal">
+          <small>Language · English</small>
+          <h4>TOEFL — Professional Working Proficiency</h4>
+          <p>Level B2 · Certified English proficiency</p>
+        </div>
+        <div class="course course-todo reveal">
+          <small>Coming soon</small>
+          <h4>Your external courses go here</h4>
+          <p>Send me the name, institution and year of each course to add it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-gray" id="skills">
+    <div class="container">
+      <div class="section-head">
+        <small class="eyebrow">Skills</small>
+        <h2>Capabilities. <span>From concept to delivery.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill reveal gradient-border"><h4>Internal Communications</h4><p>Corporate messaging, channels, engagement campaigns.</p><div class="bar"><i style="width:90%"></i></div></div>
+        <div class="skill reveal"><h4>Brand Design</h4><p>Logos, identity systems, guidelines.</p><div class="bar"><i style="width:88%"></i></div></div>
+        <div class="skill reveal"><h4>Event & Experience</h4><p>Concept, staging, signage, town halls, onboarding.</p><div class="bar"><i style="width:90%"></i></div></div>
+        <div class="skill reveal"><h4>Visual Representation</h4><p>Sketching, rendering, presentation boards.</p><div class="bar"><i style="width:92%"></i></div></div>
+        <div class="skill reveal"><h4>Tools</h4><p>Photoshop · Illustrator · InDesign · Canva · CapCut · Teams · SharePoint</p><div class="bar"><i style="width:86%"></i></div></div>
+        <div class="skill reveal gradient-border"><h4>Soft Skills</h4><p>Responsible · Organized · Bilingual teamwork · Stakeholder collaboration</p><div class="bar"><i style="width:95%"></i></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container contact-card reveal">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <small class="eyebrow light">Contact</small>
+      <h2>Hire Ana Paula for your next project.</h2>
+      <p>Internal Communication intern at AstraZeneca. Based in Guadalajara, Jalisco — open to hybrid / remote and international collaboration.</p>
+      <div class="contact-actions">
+        <a class="btn btn-white" href="mailto:apvarto@gmail.com?subject=Project%20inquiry%20—%20Portfolio">apvarto@gmail.com</a>
+        <a class="btn btn-outline-light" href="tel:+523317704554">+52 33 1770 4554</a>
+        <a class="btn btn-outline-light" href="https://www.behance.net/anapauvargastorres" target="_blank" rel="noopener">Behance</a>
+        <a class="btn btn-outline-light" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="frow">
+          <input type="text" name="name" placeholder="Your name" required aria-label="Your name" />
+          <input type="email" name="email" placeholder="Your email" required aria-label="Your email" />
+        </div>
+        <textarea name="message" rows="4" placeholder="Tell me about your project…" required aria-label="Message"></textarea>
+        <button class="btn btn-gradient btn-lg" type="submit">Send message →</button>
+        <small class="form-note">This form opens your email client — no data is stored.</small>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p><strong>AP.</strong> — Ana Paula Vargas Torres · Designer · Guadalajara, Jalisco, MX</p>
+    <p class="fine">Project images link to the original Behance case studies and Figma file. © 2026 Ana Paula Vargas Torres.</p>
+    <p class="fine links"><a href="https://www.behance.net/anapauvargastorres" target="_blank" rel="noopener">Behance</a> · <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a> · <a href="#top">Back to top ↑</a></p>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <img id="lbImg" alt="Project enlarged" />
+  <p id="lbCap"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
